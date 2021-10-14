@@ -8,10 +8,14 @@ Before actually showing how to do this, **for the moment the MultEcore-Maude imp
 - Once running Obeo, make sure you install the first two packages under the "Xtext" group, using the update site and the instructions that they provide at: https://eclipse.org/Xtext/download.html.
 ##  Running the examples
 We encourage the reader to check [MultEcore](https://bitbucket.org/phd-fernando/no.hvl.multecore/src/master/) and [MultEcore MCMTs](https://bitbucket.org/phdalejandro/no.hvl.multecore.mcmt/src/master/) main repositories webpages for an intuition on how MultEcore works and can be activated on a concrete project.
-Import all the projects within the **TODO** folder of this repository (three projects should have been imported: *no.hvl.multecore.examples.emisa.process2021.main*, *no.hvl.multecore.examples.emisa.process2021.timestamp* and *no.hvl.multecore.mcmt.examples.emisa.process2021.main*. Then activate MultEcore with the main project selected *no.hvl.multecore.examples.emisa.process2021.main*. If everything worked, one should see a tab where the structure of the multilevel hierarchy is shown (if this view is not shown one can open it in Window > Show View > Other... > MultEcore Views > Hierarchy View) and show something similar to:
+Import all the projects contained inside the *solution.zip* folder of this repository (three projects should have been imported: *no.hvl.multecore.examples.emisa.process2021.main*, *no.hvl.multecore.examples.emisa.process2021.timestamp* and *no.hvl.multecore.mcmt.examples.emisa.process2021.main*. Then activate MultEcore with the main project selected *no.hvl.multecore.examples.emisa.process2021.main*. If everything worked, one should see a tab where the structure of the multilevel hierarchy is shown (if this view is not shown one can open it in Window > Show View > Other... > MultEcore Views > Hierarchy View) and show something similar to:
+
 ![Hierarchy View](https://i.imgur.com/A0H3Q6x.jpg)
+
 To open one of the graphical representation of the models, just double click in one in the shown view. Also one can open the .aird representation file through the Project Explorer and select the already existing Diagrams:
+
 ![Project Explorer](https://i.imgur.com/zFqoIjZ.jpg)
+
 The MCMT rules created can be seen in its text editor opening the *process.mcmt* within the *no.hvl.multecore.mcmt.examples.emisa.process2021.main* project.
 ## Using the Maude facilities
 To get to this point, one has to have activated MultEcore in *no.hvl.multecore.examples.emisa.process2021.main*, and do a modification and save the *process.mcmt* so the rules are loaded (adding a white space and removing it in any line and saving the changes is enough).
